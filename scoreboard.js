@@ -16,6 +16,6 @@ document.addEventListener("DOMContentLoaded", () => {
     playAgainButton.addEventListener("click", () => {
         // Clear localStorage and redirect to the quiz page
         localStorage.removeItem("scoreboard");
-        window.location.href = "index.html";
+        window.location.href = "countryquiz.html";
     });
 });
