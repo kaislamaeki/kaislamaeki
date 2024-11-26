@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Guess the Country Quiz</title>
+    <link rel="stylesheet" type="text/css" href="style.css">
+</head>
+<body>
+ <div class="container">
+    <header>
+        <h1>Guess the Country Quiz</h1>
+        <p class="credits">Made by Kia ✨</p>
+    </header>
+    
+
+    <main id="quiz-container">
+            <div id="clue-box">
+                <h2>Clue:</h2>
+                <p id="clue-text">Press "New Clue" to start!</p>
+            </div>
+            <input type="text" id="answer" placeholder="Type your answer here...">
+            <button id="submit-answer">Submit</button>
+            <button id="new-clue">New Clue</button>
+        </div>
+    
+
+    <div id="progress-bar-container">
+        <div id="progress-bar"></div>
+        <img src="images/kia-mw.png" alt="kia-mw" id="progress-decor">
+    </div>
+    
+</main>
+
+    <footer> 
+        <div id="result"></div>
+        <div id="scoreboard" style="display: none;">
+            <h2>Scoreboard</h2>
+            <ul id="score-list"></ul>
+        </div>
+   </footer>
+    <script src="countryquiz.js"></script>
+</body>
+</html>
