@@ -1,0 +1,95 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #efc7da;
+    color: #333;
+    
+  }
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 20px;
+    background: #efc7da;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0);
+    border-radius: 10px;
+    text-align: center;
+}
+
+h1 {
+    margin-bottom: 20px;
+    color: rgb(240, 2, 133);
+  }
+
+h2 {
+    margin-bottom: 20px;
+    color: rgb(0, 0, 0);
+    font-size: 18px;
+  }
+
+  #score-list {
+    list-style-type: none; /* Remove bullet points */
+    padding: 0;
+}
+
+#score-list li {
+    margin: 5px 0; /* Add spacing between list items */
+    font-size: 16px;
+}
+
+#score-list li:last-child {
+    font-weight: bold; /* Highlight the total clues used */
+    margin-top: 10px;
+}
+
+
+/* the OG code vv */
+/* #score-list {
+    list-style: none;
+    padding: 0;
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+#score-list li {
+    margin-bottom: 10px;
+} */
+
+
+button {
+    padding: 10px 20px;
+    font-size: 16px;
+    color: #fff;
+    background-color: #d22584;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    opacity: 0.3
+    
+}
+
+#score-mona {
+    position: absolute;
+    top: 200px; /* Slightly above the bar */
+    left: 0; /* Start at the left of the container */
+    width: 100px; /* Size of the decorative image */
+    height: auto;
+    z-index: 1; /* Ensure it's above the progress bar */
+    opacity: 1;
+   
+  }
+
+  #score-princess {
+    position: absolute;
+    top: 10px; /* Slightly above the bar */
+    right: 0px; /* Start at the left of the container */
+    width: 100px; /* Size of the decorative image */
+    height: auto;
+    z-index: 1; /* Ensure it's above the progress bar */
+    opacity: 1;
+   
+  }

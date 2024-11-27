@@ -273,19 +273,41 @@ function moveToNextCountry() {
     } else {
         // Store the scoreboard data in localStorage
         localStorage.setItem("scoreboard", JSON.stringify(attempts));
+        localStorage.setItem("countries", JSON.stringify(countries));
 
         // Redirect to the scoreboard page
         window.location.href = "scoreboard.html";
     }
 }
 
-
-
 function updateScoreboard() {
-    const scoreItem = document.createElement("li");
-    scoreItem.textContent = `${countries[currentCountryIndex].name}: ${cluesUsed} clues`;
-    scoreList.appendChild(scoreItem);
+    const scoreList = document.getElementById("score-list");
+    scoreList.innerHTML = ""; // Clear previous scores
+
+    let totalCluesUsed = 0;
+
+    attempts.forEach((cluesUsed, index) => {
+        const countryName = countries[index].name; // Get country name
+        const scoreItem = document.createElement("li");
+        scoreItem.textContent = `${countryName}: ${cluesUsed} clues`;
+        scoreList.appendChild(scoreItem);
+
+        totalCluesUsed += cluesUsed; // Add to total clues
+    });
+
+    const totalCluesItem = document.createElement("li");
+    totalCluesItem.textContent = `Total clues used: ${totalCluesUsed}`;
+    totalCluesItem.style.fontWeight = "bold"; // Make it stand out
+    scoreList.appendChild(totalCluesItem);
 }
+
+
+// THE OG CODE vv
+// function updateScoreboard() {
+//     const scoreItem = document.createElement("li");
+//     scoreItem.textContent = `${countries[currentCountryIndex].name}: ${cluesUsed} clues`;
+//     scoreList.appendChild(scoreItem);
+// }
 
 newClueButton.addEventListener("click", showNextClue);
 submitButton.addEventListener("click", checkAnswer);
