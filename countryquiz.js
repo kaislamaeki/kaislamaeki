@@ -203,6 +203,18 @@ const countries = [
     }    
 ];
 
+// Shuffle the countries array at the start
+shuffleArray(countries);
+
+// Fisher-Yates shuffle function
+function shuffleArray(array) {
+    for (let i = array.length - 1; i > 0; i--) {
+        const j = Math.floor(Math.random() * (i + 1));
+        [array[i], array[j]] = [array[j], array[i]]; // Swap elements
+    }
+    return array;
+}
+
 let currentCountryIndex = 0;
 let currentClueIndex = -1;
 let attempts = [];
@@ -312,6 +324,12 @@ function updateScoreboard() {
 newClueButton.addEventListener("click", showNextClue);
 submitButton.addEventListener("click", checkAnswer);
 
+// Trigger submit with Enter key
+answerInput.addEventListener("keydown", (event) => {
+    if (event.key === "Enter") {
+        checkAnswer();
+    }
+});
 
 function updateProgressBar() {
     const progressBar = document.getElementById("progress-bar");
