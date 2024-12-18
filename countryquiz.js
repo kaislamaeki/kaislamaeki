@@ -6,7 +6,8 @@ const countries = [
             "Population: ~125 million",
             "Top export (2021): cars",
             "Capital: Tokyo",
-            "🇯🇵" // Flag
+            "🇯🇵",
+            "Japan"
         ]
     },
     {
@@ -16,7 +17,8 @@ const countries = [
             "Population: ~67 million",
             "Top export (2021): packaged medications",
             "Capital: Paris",
-            "🇫🇷"
+            "🇫🇷",
+            "France"
         ]
     },
     {
@@ -26,7 +28,8 @@ const countries = [
             "Population: ~3.5 million",
             "Top export (2021): beef",
             "Capital: Montevideo",
-            "🇺🇾"
+            "🇺🇾",
+            "Uruguay"
         ]
     },
     {
@@ -37,7 +40,8 @@ const countries = [
             "Population: ~5 million",
             "Top export (2021): milk",
             "Capital: Wellington",
-            "🇳🇿"
+            "🇳🇿",
+            "New Zealand"
         ]
     },
     {
@@ -47,7 +51,8 @@ const countries = [
             "Population: ~3 million",
             "Top export (2021): copper",
             "Capital: Windhoek",
-            "🇳🇦"
+            "🇳🇦",
+            "Namibia"
         ]
     },
     {
@@ -57,7 +62,8 @@ const countries = [
             "Population: ~900,000",
             "Top export (2021): water",
             "Capital: Suva",
-            "🇫🇯"
+            "🇫🇯",
+            "Fiji"
         ]
     },
     {
@@ -67,7 +73,8 @@ const countries = [
             "Population: ~600,000",
             "Top export (2021): gold",
             "Capital: Paramaribo",
-            "🇸🇷"
+            "🇸🇷",
+            "Suriname"
         ]
     },
     {
@@ -77,7 +84,8 @@ const countries = [
             "Population: ~3.5 million",
             "Top export (2021): copper",
             "Capital: Ulaanbaatar",
-            "🇲🇳"
+            "🇲🇳",
+            "Mongolia"
         ]
     },
     {
@@ -87,7 +95,8 @@ const countries = [
             "Population: ~14 million",
             "Top export (2021): gold",
             "Capital: Kigali",
-            "🇷🇼"
+            "🇷🇼",
+            "Rwanda"
         ]
     },
     {
@@ -97,7 +106,8 @@ const countries = [
             "Population: ~500,000",
             "Top export (2021): integrated circuits",
             "Capital: Valletta",
-            "🇲🇹"
+            "🇲🇹",
+            "Malta"
         ]
     },
     {
@@ -107,7 +117,8 @@ const countries = [
             "Population: ~300,000",
             "Top export (2021): fish",
             "Capital: Port Vila",
-            "🇻🇺"
+            "🇻🇺",
+            "Vanuatu"
         ]
     },
     {
@@ -117,7 +128,8 @@ const countries = [
             "Population: ~2.5 million",
             "Top export (2021): diamonds",
             "Capital: Gaborone",
-            "🇧🇼"
+            "🇧🇼",
+            "Botswana"
         ]
     },
     {
@@ -127,7 +139,8 @@ const countries = [
             "Population: ~800,000",
             "Top export (2021): petroleum",
             "Capital: Georgetown",
-            "🇬🇾"
+            "🇬🇾",
+            "Guyana"
         ]
     },
     {
@@ -137,7 +150,8 @@ const countries = [
             "Population: ~100,000",
             "Top export (2021): boats",
             "Capital: Victoria",
-            "🇸🇨"
+            "🇸🇨",
+            "Seychelles"
         ]
     },
     {
@@ -147,7 +161,8 @@ const countries = [
             "Population: ~1.2 million",
             "Top export (2021): soft drink concentrates",
             "Capital: Mbabane (administrative), Lobamba (legislative)",
-            "🇸🇿"
+            "🇸🇿",
+            "Eswatini"
         ]
     },
     {
@@ -158,7 +173,8 @@ const countries = [
             "Population: ~10.5 million",
             "Top export (2021): petroleum",
             "Capital: Port Moresby",
-            "🇵🇬"
+            "🇵🇬",
+            "Papua New Guinea"
         ]
     },
     {
@@ -168,7 +184,8 @@ const countries = [
             "Population: ~280,000",
             "Top export (2021): rum",
             "Capital: Bridgetown",
-            "🇧🇧"
+            "🇧🇧",
+            "Barbados"
         ]
     },
     {
@@ -178,7 +195,8 @@ const countries = [
             "Population: ~42.5 million",
             "Top export (2021): gold",
             "Capital: Kabul",
-            "🇦🇫"
+            "🇦🇫",
+            "Afghanistan"
         ]
     },
     {
@@ -188,7 +206,8 @@ const countries = [
             "Population: ~10.5 million",
             "Top export (2021): cars",
             "Capital: Stockholm",
-            "🇸🇪"
+            "🇸🇪",
+            "Sweden"
         ]
     },
     {
@@ -198,7 +217,8 @@ const countries = [
             "Population: ~116.5 million",
             "Top export (2021): petroleum",
             "Capital: Cairo",
-            "🇪🇬"
+            "🇪🇬",
+            "Egypt"
         ]
     }    
 ];
